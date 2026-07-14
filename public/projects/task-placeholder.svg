@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#eab308"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="#0a0a0f"/>
+  <rect x="100" y="80" width="600" height="240" rx="16" fill="url(#g)" opacity="0.2"/>
+  <text x="400" y="220" text-anchor="middle" fill="#f59e0b" font-family="sans-serif" font-size="32" font-weight="bold">Task Manager</text>
+</svg>
