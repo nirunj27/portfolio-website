@@ -4,8 +4,8 @@ export const siteConfig = {
   degree: "Bachelor of Engineering (Computer Science)",
   tagline:
     "Building scalable, production-grade frontend applications with React and Next.js, complemented by practical experience in backend development with Node.js, Express.js, and AWS.",
-  experienceYears: "3.5+ years",
-  location: "Nashik, India",
+  experienceYears: "3.6+ years",
+  location: "Sangamner, India",
   email: "niranjan.jathar@gmail.com",
   github: "https://github.com/nirunj27",
   linkedin: "https://www.linkedin.com/in/niranjan-jathar-5a53b1229/",
@@ -187,7 +187,7 @@ export const navLinks = [
 ];
 
 export const heroStats = [
-  { value: "3.5+", label: "Years Experience" },
+  { value: "3.6+", label: "Years Experience" },
   { value: "7", label: "Web Apps" },
   { value: "1", label: "AWS Certification" },
 ];

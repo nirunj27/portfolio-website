@@ -14,99 +14,99 @@ export default function Hero() {
   const techTags = ["React.js", "TypeScript", "Node.js", "AWS"];
 
   const codeLines = [
-  {
-    indent: 0,
-    parts: [
-      { text: "const", color: "text-violet-400" },
-      { text: " engineer ", color: "text-zinc-500" },
-      { text: "= {", color: "text-zinc-300" },
-    ],
-  },
-  {
-    indent: 1,
-    parts: [
-      { text: "name", color: "text-cyan-400" },
-      { text: ': "', color: "text-zinc-500" },
-      { text: siteConfig.name, color: "text-emerald-400" },
-      { text: '",', color: "text-zinc-500" },
-    ],
-  },
-  {
-    indent: 1,
-    parts: [
-      { text: "role", color: "text-cyan-400" },
-      { text: ': "', color: "text-zinc-500" },
-      { text: siteConfig.title, color: "text-emerald-400" },
-      { text: '",', color: "text-zinc-500" },
-    ],
-  },
-  {
-    indent: 1,
-    parts: [
-      { text: "experience", color: "text-cyan-400" },
-      { text: ': "', color: "text-zinc-500" },
-      { text: siteConfig.experienceYears, color: "text-emerald-400" },
-      { text: '",', color: "text-zinc-500" },
-    ],
-  },
-  {
-    indent: 1,
-    parts: [
-      { text: "availability", color: "text-cyan-400" },
-      { text: ': "', color: "text-zinc-500" },
-      { text: "Open to Opportunities", color: "text-emerald-400" },
-      { text: '",', color: "text-zinc-500" },
-    ],
-  },
-  {
-    indent: 1,
-    parts: [
-      { text: "location", color: "text-cyan-400" },
-      { text: ': "', color: "text-zinc-500" },
-      { text: "India", color: "text-emerald-400" },
-      { text: '",', color: "text-zinc-500" },
-    ],
-  },
-  {
-    indent: 1,
-    parts: [
-      { text: "frontend", color: "text-cyan-400" },
-      { text: ": [", color: "text-zinc-500" },
-      { text: '"React"', color: "text-amber-300" },
-      { text: ", ", color: "text-zinc-500" },
-      { text: '"Next.js"', color: "text-amber-300" },
-      { text: ", ", color: "text-zinc-500" },
-      { text: '"JavaScript"', color: "text-amber-300" },
-      { text: ", ", color: "text-zinc-500" },
-      { text: '"TypeScript"', color: "text-amber-300" },
-      { text: "],", color: "text-zinc-500" },
-    ],
-  },
-  {
-    indent: 1,
-    parts: [
-      { text: "backend", color: "text-cyan-400" },
-      { text: ": [", color: "text-zinc-500" },
-      { text: '"Node.js"', color: "text-amber-300" },
-      { text: ", ", color: "text-zinc-500" },
-      { text: '"Express.js"', color: "text-amber-300" },
-      { text: "],", color: "text-zinc-500" },
-    ],
-  },
-  {
-    indent: 1,
-    parts: [
-      { text: "cloud", color: "text-cyan-400" },
-      { text: ": [", color: "text-zinc-500" },
-      { text: '"AWS"', color: "text-amber-300" },
-      { text: "],", color: "text-zinc-500" },
-    ],
-  },
-  {
-    indent: 0,
-    parts: [{ text: "};", color: "text-zinc-300" }],
-  },
-];
+    {
+      indent: 0,
+      parts: [
+        { text: "const", color: "text-violet-400" },
+        { text: " engineer ", color: "text-zinc-500" },
+        { text: "= {", color: "text-zinc-300" },
+      ],
+    },
+    {
+      indent: 1,
+      parts: [
+        { text: "name", color: "text-cyan-400" },
+        { text: ': "', color: "text-zinc-500" },
+        { text: siteConfig.name, color: "text-emerald-400" },
+        { text: '",', color: "text-zinc-500" },
+      ],
+    },
+    {
+      indent: 1,
+      parts: [
+        { text: "role", color: "text-cyan-400" },
+        { text: ': "', color: "text-zinc-500" },
+        { text: siteConfig.title, color: "text-emerald-400" },
+        { text: '",', color: "text-zinc-500" },
+      ],
+    },
+    {
+      indent: 1,
+      parts: [
+        { text: "experience", color: "text-cyan-400" },
+        { text: ': "', color: "text-zinc-500" },
+        { text: siteConfig.experienceYears, color: "text-emerald-400" },
+        { text: '",', color: "text-zinc-500" },
+      ],
+    },
+    {
+      indent: 1,
+      parts: [
+        { text: "availability", color: "text-cyan-400" },
+        { text: ': "', color: "text-zinc-500" },
+        { text: "Open to Opportunities", color: "text-emerald-400" },
+        { text: '",', color: "text-zinc-500" },
+      ],
+    },
+    {
+      indent: 1,
+      parts: [
+        { text: "location", color: "text-cyan-400" },
+        { text: ': "', color: "text-zinc-500" },
+        { text: "India", color: "text-emerald-400" },
+        { text: '",', color: "text-zinc-500" },
+      ],
+    },
+    {
+      indent: 1,
+      parts: [
+        { text: "frontend", color: "text-cyan-400" },
+        { text: ": [", color: "text-zinc-500" },
+        { text: '"React"', color: "text-amber-300" },
+        { text: ", ", color: "text-zinc-500" },
+        { text: '"Next.js"', color: "text-amber-300" },
+        { text: ", ", color: "text-zinc-500" },
+        { text: '"JavaScript"', color: "text-amber-300" },
+        { text: ", ", color: "text-zinc-500" },
+        { text: '"TypeScript"', color: "text-amber-300" },
+        { text: "],", color: "text-zinc-500" },
+      ],
+    },
+    {
+      indent: 1,
+      parts: [
+        { text: "backend", color: "text-cyan-400" },
+        { text: ": [", color: "text-zinc-500" },
+        { text: '"Node.js"', color: "text-amber-300" },
+        { text: ", ", color: "text-zinc-500" },
+        { text: '"Express.js"', color: "text-amber-300" },
+        { text: "],", color: "text-zinc-500" },
+      ],
+    },
+    {
+      indent: 1,
+      parts: [
+        { text: "cloud", color: "text-cyan-400" },
+        { text: ": [", color: "text-zinc-500" },
+        { text: '"AWS"', color: "text-amber-300" },
+        { text: "],", color: "text-zinc-500" },
+      ],
+    },
+    {
+      indent: 0,
+      parts: [{ text: "};", color: "text-zinc-300" }],
+    },
+  ];
 
   return (
     <section
@@ -156,10 +156,9 @@ export default function Hero() {
           {/* Mobile / tablet CTAs */}
           <div className="mt-8 flex w-full flex-col gap-3 sm:flex-row sm:justify-center lg:hidden">
             <a
-              href={siteConfig.resumeUrl}
+              href="./projects/Niranjan-Jathar-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              download="Niranjan-Jathar-Resume.pdf"
               className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-cyan-500 to-violet-500 px-6 py-3 text-sm font-semibold text-white transition-transform hover:scale-105 sm:w-auto sm:px-8"
             >
               <Download size={16} />
@@ -272,11 +271,10 @@ export default function Hero() {
               {/* Desktop CTAs */}
               <div className="hidden flex-col gap-3 border-t border-white/5 p-5 lg:flex">
                 <a
-                  href={siteConfig.resumeUrl}
+                  href="./projects/Niranjan-Jathar-CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  download="Niranjan-Jathar-Resume.pdf"
-                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-cyan-500 to-violet-500 px-6 py-3 text-sm font-semibold text-white transition-transform hover:scale-[1.02]"
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-cyan-500 to-violet-500 px-6 py-3 text-sm font-semibold text-white transition-transform hover:scale-105 sm:w-auto sm:px-8"
                 >
                   <Download size={16} />
                   View Resume
