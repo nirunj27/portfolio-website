@@ -55,7 +55,6 @@ export const workProjects: WorkProject[] = [
       "Git",
       "GitHub",
       "Docker",
-      "Nginx",
       "CI/CD Pipelines",
     ],
     accent: "from-cyan-500 to-blue-600",

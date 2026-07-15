@@ -27,6 +27,11 @@ export const metadata: Metadata = {
     description: aboutDescription(),
     type: "website",
   },
+   icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 function aboutDescription() {
