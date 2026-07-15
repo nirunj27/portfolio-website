@@ -11,8 +11,8 @@ export default function Logo({ className = "" }: { className?: string }) {
         <div className="absolute -right-0.5 -bottom-0.5 h-2.5 w-2.5 rounded-full bg-accent" />
       </div>
       <div className="hidden flex-col sm:flex">
-        <span className="font-display text-sm leading-tight font-bold text-white transition-colors group-hover:text-accent">
-          {siteConfig.name.split(" ")[0]}
+        <span className="font-sans text-sm leading-tight font-bold text-white transition-colors group-hover:text-accent">
+          {siteConfig.name}
         </span>
         <span className="text-[11px] tracking-wide text-zinc-500 uppercase">
           {siteConfig.title}

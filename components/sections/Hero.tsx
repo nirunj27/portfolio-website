@@ -126,7 +126,7 @@ export default function Hero() {
             {siteConfig.location}
           </div>
 
-          <h1 className="font-display text-[1.75rem] leading-[1.15] font-bold tracking-tight break-words text-white min-[400px]:text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+          <h1 className="font-sans text-[1.75rem] leading-[1.15] font-bold tracking-tight break-words text-white min-[400px]:text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
             {siteConfig.name}
           </h1>
 
