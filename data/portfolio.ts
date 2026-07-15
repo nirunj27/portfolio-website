@@ -29,7 +29,7 @@ export const skillGroups = [
   },
   {
     category: "Frameworks & Libraries",
-    skills: ["React.js", "Next.js", "React Native"],
+    skills: ["React.js", "Next.js"],
   },
   {
     category: "State Management",
