@@ -9,7 +9,7 @@ export const siteConfig = {
   email: "niranjan.jathar@gmail.com",
   github: "https://github.com/nirunj27",
   linkedin: "https://www.linkedin.com/in/niranjan-jathar-5a53b1229/",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "./projects/Niranjan-Jathar-CV.pdf",
 };
 
 export const aboutText = `Software Engineer with 3.6+ years of experience specializing in the design and development of scalable, production-grade web applications. My primary expertise lies in building high-performance, responsive, and user-centric frontend applications using React.js, Next.js, TypeScript, and modern JavaScript (ES6+).

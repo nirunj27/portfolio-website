@@ -97,16 +97,7 @@ export default function Navbar() {
         </ul>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <a
-            href={siteConfig.resumeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            download="Niranjan-Jathar-Resume.pdf"
-            className="inline-flex items-center gap-1.5 rounded-full border border-white/15 px-4 py-2 text-sm font-medium text-zinc-300 transition-all hover:border-accent/40 hover:text-white"
-          >
-            <Download size={14} />
-            Resume
-          </a>
+          
           <Link
             href={isHome ? "#contact" : "/#contact"}
             className="rounded-full bg-gradient-to-r from-cyan-500 to-violet-500 px-4 py-2 text-sm font-semibold text-white transition-transform hover:scale-105"
