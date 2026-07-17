@@ -153,7 +153,7 @@ export const experiences = [
     location: "India",
     period: "November 2025 – March 2026",
     highlights: [
-      "Designed and developed scalable React.js modules for an enterprise Audit Query & Disposal Management System (AQDMS), digitizing audit planning, query management, compliance tracking, and reporting workflows.",
+      "Designed and developed scalable React.js modules for an enterprise Audit Query & Resolve Management System (AQRMS), digitizing audit planning, query management, compliance tracking, and reporting workflows.",
       "Architected reusable component libraries and implemented secure role-based navigation, advanced data tables, document upload workflows, and interactive dashboards for multiple stakeholder roles.",
       "Integrated 30+ REST APIs using React Query and Axios, while contributing to backend API development with Node.js and Express.js to support audit lifecycle and document management features.",
       "Enhanced application performance using lazy loading, code splitting, memoization, and optimized rendering strategies, ensuring a responsive user experience for enterprise-scale applications.",

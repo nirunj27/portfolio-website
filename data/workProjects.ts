@@ -134,7 +134,7 @@ export const workProjects: WorkProject[] = [
   {
     slug: "audit-query-disposal-management-system",
 
-    title: "Audit Query & Disposal Management System (AQDMS)",
+    title: "Audit Query & Resolve Management System (AQRMS)",
 
     subtitle: "Enterprise Audit Workflow & Compliance Management Platform",
 
