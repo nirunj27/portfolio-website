@@ -41,7 +41,6 @@ export const skillGroups = [
       "Component-Driven Development",
       "Reusable Component Libraries",
       "Design Tokens",
-      "Atomic Design",
       "Responsive Design",
       "Accessibility (WCAG)",
     ],
@@ -57,7 +56,6 @@ export const skillGroups = [
       "SSR",
       "SSG",
       "CSR",
-      "ISR",
       "Caching Strategies",
       "API Integration Patterns",
       "State Management Architecture",
@@ -69,19 +67,17 @@ export const skillGroups = [
     skills: [
       "Material UI (MUI)",
       "Ant Design",
-      "Chakra UI",
       "Tailwind CSS",
       "Bootstrap",
       "shadcn/ui",
       "Radix UI",
-      "Headless UI",
       "React Bootstrap",
       "Semantic UI React",
     ],
   },
   {
     category: "Styling",
-    skills: ["CSS Modules", "Styled Components", "Emotion", "Sass"],
+    skills: ["CSS Modules", "Styled Components", "Sass"],
   },
   {
     category: "Performance",
@@ -97,11 +93,11 @@ export const skillGroups = [
   },
   {
     category: "API & Communication",
-    skills: ["RESTful APIs", "Axios", "GraphQL", "WebSockets"],
+    skills: ["RESTful APIs", "Axios", "WebSockets"],
   },
   {
     category: "Authentication",
-    skills: ["JWT", "OAuth 2.0", "Role-Based Access Control (RBAC)"],
+    skills: ["JWT", "Role-Based Access Control (RBAC)"],
   },
   {
     category: "Backend",
@@ -113,7 +109,14 @@ export const skillGroups = [
   },
   {
     category: "Cloud & Deployment",
-    skills: ["AWS", "Docker", "CI/CD Pipelines", "Vercel", "Netlify"],
+    skills: [
+      "AWS",
+      "Docker",
+      "CI/CD Pipelines",
+      "Vercel",
+      "Netlify",
+      "Railway",
+    ],
   },
   {
     category: "Monitoring & Debugging",
@@ -129,7 +132,7 @@ export const skillGroups = [
   },
   {
     category: "Dev Tools",
-    skills: ["VS Code", "Postman", "Jira", "DBeaver"],
+    skills: ["VS Code", "Postman", "Jira", "DBeaver", "Cursor", "Figma","github Copilot"],
   },
   {
     category: "Methodologies",
@@ -144,6 +147,19 @@ export const skillGroups = [
 ];
 
 export const experiences = [
+  {
+    title: "Software Engineer (Freelancer)",
+    company: "Enterprise Client",
+    location: "India",
+    period: "November 2025 – March 2026",
+    highlights: [
+      "Designed and developed scalable React.js modules for an enterprise Audit Query & Disposal Management System (AQDMS), digitizing audit planning, query management, compliance tracking, and reporting workflows.",
+      "Architected reusable component libraries and implemented secure role-based navigation, advanced data tables, document upload workflows, and interactive dashboards for multiple stakeholder roles.",
+      "Integrated 30+ REST APIs using React Query and Axios, while contributing to backend API development with Node.js and Express.js to support audit lifecycle and document management features.",
+      "Enhanced application performance using lazy loading, code splitting, memoization, and optimized rendering strategies, ensuring a responsive user experience for enterprise-scale applications.",
+      "Worked closely with cross-functional teams throughout the software development lifecycle, translating business requirements into production-ready features while following Agile methodologies and coding best practices.",
+    ],
+  },
   {
     title: "Software Engineer",
     company: "Winjit Technologies",
@@ -188,6 +204,6 @@ export const navLinks = [
 
 export const heroStats = [
   { value: "3.6+", label: "Years Experience" },
-  { value: "7", label: "Web Apps" },
+  { value: "8", label: "Web Apps" },
   { value: "1", label: "AWS Certification" },
 ];

@@ -83,7 +83,7 @@ function PersonalProjectCard({ project }: { project: (typeof personalProjects)[n
           <p className="line-clamp-2 text-sm text-zinc-400">{project.description}</p>
         </Link>
         <div className="mt-4">
-          <TechChips items={project.techStack.slice(0, 4)} />
+          <TechChips items={project.techStack} />
         </div>
       </div>
     </div>
@@ -130,7 +130,7 @@ export default function Projects() {
                     {project.overview}
                   </p>
                   <div className="mt-4">
-                    <TechChips items={project.techStack.slice(0, 4)} />
+                    <TechChips items={project.techStack} />
                   </div>
                 </div>
               </Link>

@@ -4,6 +4,8 @@ export interface WorkProject {
   subtitle: string;
   period: string;
   company: string;
+  businessProblem?: string;
+  frontendArchitecture?: string[];
   overview: string;
   contributions: string[];
   techStack: string[];
@@ -127,6 +129,93 @@ export const workProjects: WorkProject[] = [
       "CI/CD Pipelines",
     ],
     accent: "from-emerald-500 to-teal-600",
+  },
+
+  {
+    slug: "audit-query-disposal-management-system",
+
+    title: "Audit Query & Disposal Management System (AQDMS)",
+
+    subtitle: "Enterprise Audit Workflow & Compliance Management Platform",
+
+    period: "November 2025 – March 2026",
+
+    company: "Enterprise Client(CA firm)",
+
+    overview:
+      "Developed an enterprise-grade Audit Query & Disposal Management System (AQDMS) to digitize and streamline the complete audit lifecycle for a Chartered Accountant firm. The platform enables auditors, managers, reviewers, and client representatives to collaborate through a centralized workflow covering audit planning, audit query management, compliance tracking, document management, review, approvals, dashboards, and reporting. It replaces traditional spreadsheet- and email-driven processes with a secure, role-based application that improves transparency, accountability, operational efficiency, and audit traceability. Built using modern React architecture, the application focuses on scalability, maintainability, performance, and enterprise-grade user experience through reusable component architecture, centralized design systems, efficient API communication, optimized state management, and frontend system design best practices.",
+
+    businessProblem:
+      "Traditional audit processes often rely on Excel sheets, emails, and manually maintained documents, making it difficult to track audit observations, monitor compliance, manage supporting evidence, and generate management reports efficiently. These disconnected workflows frequently lead to delayed responses, duplicate observations, poor visibility into audit progress, inconsistent documentation, and limited accountability. AQDMS centralizes the complete audit lifecycle into a single platform, enabling secure collaboration, real-time tracking, automated workflows, and faster audit query resolution.",
+
+    contributions: [
+      "Designed and developed scalable React.js modules covering audit planning, audit query management, document management, compliance tracking, dashboards, reporting, and user administration.",
+      "Built reusable UI components following Component-Driven Development (CDD), improving consistency, scalability, and long-term maintainability across the application.",
+      "Created a centralized Design System consisting of reusable typography, buttons, form controls, tables, dialogs, cards, badges, loaders, empty states, and notification components.",
+      "Implemented Frontend System Design using Feature-Based Architecture with clear separation between pages, layouts, components, hooks, services, utilities, and shared modules.",
+      "Developed advanced enterprise data tables supporting server-side pagination, sorting, filtering, search, row selection, bulk actions, and export functionality.",
+      "Integrated REST APIs using Axios and React Query, enabling efficient server-state management, caching, background synchronization, optimistic updates, and improved application responsiveness.",
+      "Developed dynamic forms using React Hook Form with reusable validation components and schema-driven form architecture.",
+      "Implemented secure Role-Based Access Control (RBAC), protected routes, and permission-based UI rendering for Auditors, Managers, Reviewers, Client Representatives, and Administrators.",
+      "Optimized application performance using lazy loading, route-based code splitting, memoization, debouncing, virtualization, and efficient rendering strategies.",
+      "Contributed to backend API development using Node.js and Express.js for audit workflows, document handling, user management, and activity logging.",
+      "Collaborated with development teams and business stakeholders throughout requirement analysis, sprint planning, development, testing, and deployment using Agile methodologies.",
+    ],
+
+    techStack: [
+      "React.js",
+      "TypeScript",
+      "Vite",
+      "Material UI (MUI)",
+      "Tailwind CSS",
+      "React Router",
+      "React Query (TanStack Query)",
+      "React Hook Form",
+      "Axios",
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "JWT Authentication",
+      "Git",
+      "GitHub",
+      "ESLint",
+      "Prettier",
+      "CI/CD Pipelines",
+    ],
+
+    frontendArchitecture: [
+      "Feature-Based Folder Architecture",
+      "Component-Driven Development (CDD)",
+      "Reusable Component Library",
+      "Centralized Design System",
+      "Atomic UI Composition",
+      "Shared Layout Architecture",
+      "Reusable Layout Components",
+      "Protected Routes",
+      "Role-Based Access Control (RBAC)",
+      "Permission-Based UI Rendering",
+      "React Query Server-State Management",
+      "Centralized Axios API Layer",
+      "Reusable Custom Hooks",
+      "React Hook Form Architecture",
+      "Global State Management",
+      "Lazy Loading",
+      "Route-Based Code Splitting",
+      "Global Error Handling",
+      "Loading, Empty & Error States",
+      "Reusable Data Table Framework",
+      "Toast Notification System",
+      "Responsive Mobile-First Design",
+    ],
+
+    
+    
+
+    
+
+    
+
+    accent: "from-cyan-500 to-blue-600",
   },
 ];
 

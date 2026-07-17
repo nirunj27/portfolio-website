@@ -45,6 +45,8 @@ export const personalProjects: PersonalProject[] = [
       "Groq",
       "TanStack Query",
       "RBAC",
+      "vercel",
+      "Railway api"
     ],
     githubUrl: "https://github.com/nirunj27/Doc-ai",
     liveUrl:"https://doc-ai-gamma-silk.vercel.app/",
