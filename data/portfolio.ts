@@ -151,6 +151,7 @@ export const experiences = [
     title: "Software Engineer (Freelancer)",
     company: "Enterprise Client",
     location: "India",
+    id: "freelancer",
     period: "November 2025 – March 2026",
     highlights: [
       "Designed and developed scalable React.js modules for an enterprise Audit Query & Resolve Management System (AQRMS), digitizing audit planning, query management, compliance tracking, and reporting workflows.",
@@ -164,6 +165,7 @@ export const experiences = [
     title: "Software Engineer",
     company: "Winjit Technologies",
     location: "Nashik",
+    id: "winjit-technologies",
     period: "Feb 2023 – July 2025",
     highlights: [
       "Engineered dynamic, interactive user interfaces utilising React.js within a component-driven architecture.",
@@ -178,6 +180,7 @@ export const experiences = [
     title: "Front End Developer",
     company: "WorldWin Coder Pvt. Ltd.",
     location: "Nashik",
+    id: "worldwin-coder",
     period: "June 2020 – July 2021",
     highlights: [
       "Engineered and optimised scalable, high-performance front-end applications utilising React.js, guaranteeing compliance with modern JavaScript (ES6+) standards and best practices.",
