@@ -34,9 +34,9 @@ export default function Hero() {
     {
       indent: 1,
       parts: [
-        { text: "role", color: "text-cyan-400" },
+        { text: "Education", color: "text-cyan-400" },
         { text: ': "', color: "text-zinc-500" },
-        { text: siteConfig.title, color: "text-emerald-400" },
+        { text: siteConfig.degree, color: "text-emerald-400" },
         { text: '",', color: "text-zinc-500" },
       ],
     },
@@ -55,15 +55,6 @@ export default function Hero() {
         { text: "availability", color: "text-cyan-400" },
         { text: ': "', color: "text-zinc-500" },
         { text: "Open to Opportunities", color: "text-emerald-400" },
-        { text: '",', color: "text-zinc-500" },
-      ],
-    },
-    {
-      indent: 1,
-      parts: [
-        { text: "location", color: "text-cyan-400" },
-        { text: ': "', color: "text-zinc-500" },
-        { text: "India", color: "text-emerald-400" },
         { text: '",', color: "text-zinc-500" },
       ],
     },

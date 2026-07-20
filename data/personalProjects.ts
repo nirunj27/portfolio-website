@@ -21,7 +21,7 @@ export const personalProjects: PersonalProject[] = [
     description:
       "Multi-tenant platform that turns unstructured files into searchable, AI-enriched insights with RBAC, semantic search, and 13 specialized AI workflows.",
     longDescription:
-      "DocuMind AI is a production-style document intelligence SaaS built for legal, finance, HR, and operations teams. Users upload PDFs, DOCX, images, and CSVs; the system extracts text, generates summaries, and runs structured AI workflows—invoices, contracts, resumes, compliance checks, and more.\n\nInstead of treating files as static uploads, the platform enriches documents through a dedicated AI Studio and exposes structured fields, detections, and recommended actions. A real multi-tenant model gives platform SuperAdmins oversight of all projects, while project admins manage workspaces and invite team members with roles (Admin, Manager, Member, Viewer). Documents can be private or workspace-shared, with permissions enforced end-to-end.\n\nThe product spans the full stack: landing page, auth, dashboard, upload pipeline with OCR, 13 AI workflows, semantic search via pgvector embeddings, admin console with audit logs and feature flags, and a SuperAdmin dashboard for platform-wide metrics—all backed by Express API, Supabase Auth/PostgreSQL/Storage, and secure server-side Gemini/Groq integration.",
+      "DocuMind AI is a document intelligence SaaS built for legal, finance, HR, and operations teams. Users upload PDFs, DOCX, images, and CSVs; the system extracts text, generates summaries, and runs structured AI workflows—invoices, contracts, resumes, compliance checks, and more.\n\nInstead of treating files as static uploads, the platform enriches documents through a dedicated AI Studio and exposes structured fields, detections, and recommended actions. A real multi-tenant model gives platform SuperAdmins oversight of all projects, while project admins manage workspaces and invite team members with roles (Admin, Manager, Member, Viewer). Documents can be private or workspace-shared, with permissions enforced end-to-end.\n\nThe product spans the full stack: landing page, auth, dashboard, upload pipeline with OCR, 13 AI workflows, semantic search via pgvector embeddings, admin console with audit logs and feature flags, and a SuperAdmin dashboard for platform-wide metrics—all backed by Express API, Supabase Auth/PostgreSQL/Storage, and secure server-side Gemini/Groq integration.",
     highlights: [
       "End-to-end product: landing page, auth, dashboard, upload pipeline, AI workflows, semantic search, and admin console.",
       "Multi-tenant architecture — SuperAdmin → Project → Workspaces → Team members with full RBAC.",
@@ -80,6 +80,7 @@ export const personalProjects: PersonalProject[] = [
       "CodeMirror",
       "react-syntax-highlighter",
       "Lucide React",
+      "Json"
     ],
     githubUrl: "https://github.com/nirunj27/snippetshelf",
     liveUrl: "https://snippetshelf.netlify.app/",

@@ -1,10 +1,10 @@
 export const siteConfig = {
   name: "Niranjan Jathar",
   title: "Software Engineer",
-  degree: "Bachelor of Engineering (Computer Science)",
+  degree: "Bachelor of Engineering(CS)",
   tagline:
     "Building scalable, production-grade frontend applications with React and Next.js, complemented by practical experience in backend development with Node.js, Express.js, and AWS.",
-  experienceYears: "3.6+ years",
+  experienceYears: "3.6 years",
   location: "Sangamner, India",
   email: "niranjan.jathar@gmail.com",
   github: "https://github.com/nirunj27",
@@ -50,16 +50,10 @@ export const skillGroups = [
     skills: [
       "Scalable Frontend Architecture",
       "Feature-Based Architecture",
-      "Code Splitting",
-      "Lazy Loading",
-      "Performance Optimization",
-      "SSR",
-      "SSG",
-      "CSR",
-      "Caching Strategies",
-      "API Integration Patterns",
       "State Management Architecture",
-      "Monorepo (Nx/Turborepo)",
+      "API Integration Patterns",
+      "Performance Optimization",
+      "Caching Strategies",
     ],
   },
   {
@@ -70,7 +64,6 @@ export const skillGroups = [
       "Tailwind CSS",
       "Bootstrap",
       "shadcn/ui",
-      "Radix UI",
       "React Bootstrap",
       "Semantic UI React",
     ],
@@ -97,7 +90,7 @@ export const skillGroups = [
   },
   {
     category: "Authentication",
-    skills: ["JWT", "Role-Based Access Control (RBAC)"],
+    skills: ["JWT", "Role-Based Access Control (RBAC)", "Clerk"],
   },
   {
     category: "Backend",
@@ -132,7 +125,15 @@ export const skillGroups = [
   },
   {
     category: "Dev Tools",
-    skills: ["VS Code", "Postman", "Jira", "DBeaver", "Cursor", "Figma","github Copilot"],
+    skills: [
+      "VS Code",
+      "Postman",
+      "Jira",
+      "DBeaver",
+      "Cursor",
+      "Figma",
+      "github Copilot",
+    ],
   },
   {
     category: "Methodologies",
@@ -206,7 +207,7 @@ export const navLinks = [
 ];
 
 export const heroStats = [
-  { value: "3.6+", label: "Years Experience" },
+  { value: "3.6", label: "Years Experience" },
   { value: "8", label: "Web Apps" },
   { value: "1", label: "AWS Certification" },
 ];
