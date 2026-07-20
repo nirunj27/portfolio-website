@@ -6,10 +6,12 @@ import Experience from "@/components/sections/Experience";
 import CoursesAchievements from "@/components/sections/CoursesAchievements";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/layout/Footer";
+import HashScroll from "@/components/ui/HashScroll";
 
 export default function Home() {
   return (
     <>
+      <HashScroll />
       <Hero />
       <About />
       <Skills />

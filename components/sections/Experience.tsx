@@ -20,7 +20,7 @@ export default function Experience() {
           <div className="absolute top-0 bottom-0 left-4 hidden w-px bg-gradient-to-b from-accent/50 via-accent/20 to-transparent md:left-6 md:block" />
 
           {experiences.map((exp, index) => (
-            <div key={index} id={exp.id} className="exp-item relative scroll-mt-28 md:pl-16">
+            <div key={exp.id} id={exp.id} className="exp-item relative scroll-mt-40 md:pl-16">
               <div className="absolute left-2.5 hidden h-3 w-3 rounded-full border-2 border-accent bg-background md:left-5 md:block" />
 
               <div className="glass-card rounded-2xl p-6 md:p-8">
