@@ -156,7 +156,7 @@ export default function Hero() {
           {/* Mobile / tablet CTAs */}
           <div className="mt-8 flex w-full flex-col gap-3 sm:flex-row sm:justify-center lg:hidden">
             <a
-              href="./projects/Niranjan-Jathar-CV.pdf"
+              href="/Niranjan-Jathar-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-cyan-500 to-violet-500 px-6 py-3 text-sm font-semibold text-white transition-transform hover:scale-105 sm:w-auto sm:px-8"
@@ -271,7 +271,7 @@ export default function Hero() {
               {/* Desktop CTAs */}
               <div className="hidden flex-col gap-3 border-t border-white/5 p-5 lg:flex">
                 <a
-                  href="./projects/Niranjan-Jathar-CV.pdf"
+                  href="/Niranjan-Jathar-CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-cyan-500 to-violet-500 px-6 py-3 text-sm font-semibold text-white transition-transform hover:scale-105 sm:w-auto sm:px-8"
