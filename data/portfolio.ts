@@ -28,6 +28,10 @@ export const skillGroups = [
     skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript"],
   },
   {
+    category: "Animation",
+    skills: ["Three.js", "React Three Fiber", "GSAP"],
+  },
+  {
     category: "Frameworks & Libraries",
     skills: ["React.js", "Next.js"],
   },
@@ -85,6 +89,16 @@ export const skillGroups = [
     ],
   },
   {
+    category: "Testing",
+    skills: [
+      "Jest",
+      "React Testing Library",
+      "Unit Testing",
+      "End-to-End Testing",
+      "Debugging & Troubleshooting",
+    ],
+  },
+  {
     category: "API & Communication",
     skills: ["RESTful APIs", "Axios", "WebSockets"],
   },
@@ -98,7 +112,7 @@ export const skillGroups = [
   },
   {
     category: "Databases",
-    skills: ["MongoDB", "MySQL", "Database Schema Design"],
+    skills: ["MongoDB", "MySQL", "PostgreSQL"],
   },
   {
     category: "Cloud & Deployment",
@@ -130,9 +144,7 @@ export const skillGroups = [
       "Postman",
       "Jira",
       "DBeaver",
-      "Cursor",
       "Figma",
-      "github Copilot",
     ],
   },
   {
@@ -143,6 +155,25 @@ export const skillGroups = [
       "Code Reviews",
       "Pair Programming",
       "Accessibility (WCAG)",
+    ],
+  },
+  {
+    category: "AI & Developer Tools",
+    skills: [
+      "Cursor",
+      "Claude Code",
+      "GitHub Copilot",
+      "ChatGPT",
+      "AI-assisted development",
+      "Prompt engineering",
+    ],
+  },
+  {
+    category: "Communication",
+    skills: [
+      "Strong written and verbal communication skills",
+      "Technical documentation",
+      "Stakeholder collaboration",
     ],
   },
 ];
