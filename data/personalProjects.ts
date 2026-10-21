@@ -14,46 +14,46 @@ export interface PersonalProject {
 }
 
 export const personalProjects: PersonalProject[] = [
-  {
-    slug: "docmind-ai",
-    title: "DocuMind AI",
-    subtitle: "Document Intelligence Platform",
-    description:
-      "Multi-tenant platform that turns unstructured files into searchable, AI-enriched insights with RBAC, semantic search, and 13 specialized AI workflows.",
-    longDescription:
-      "DocuMind AI is a document intelligence SaaS built for legal, finance, HR, and operations teams. Users upload PDFs, DOCX, images, and CSVs; the system extracts text, generates summaries, and runs structured AI workflows—invoices, contracts, resumes, compliance checks, and more.\n\nInstead of treating files as static uploads, the platform enriches documents through a dedicated AI Studio and exposes structured fields, detections, and recommended actions. A real multi-tenant model gives platform SuperAdmins oversight of all projects, while project admins manage workspaces and invite team members with roles (Admin, Manager, Member, Viewer). Documents can be private or workspace-shared, with permissions enforced end-to-end.\n\nThe product spans the full stack: landing page, auth, dashboard, upload pipeline with OCR, 13 AI workflows, semantic search via pgvector embeddings, admin console with audit logs and feature flags, and a SuperAdmin dashboard for platform-wide metrics—all backed by Express API, Supabase Auth/PostgreSQL/Storage, and secure server-side Gemini/Groq integration.",
-    highlights: [
-      "End-to-end product: landing page, auth, dashboard, upload pipeline, AI workflows, semantic search, and admin console.",
-      "Multi-tenant architecture — SuperAdmin → Project → Workspaces → Team members with full RBAC.",
-      "13 AI Studio workflows: invoice extraction, contract analysis, resume parsing, compliance checks, and more.",
-      "Semantic search with pgvector embeddings, filters, and saved searches.",
-      "Document lifecycle with OCR (Tesseract), PDF/DOCX/CSV parsing, preview, folders, and JSON/CSV/PDF export.",
-      "Admin governance: team invites, permission matrix, feature flags, and audit logs.",
-      "Secure AI integration — Gemini/Groq keys server-side with provider switching from the UI.",
-    ],
-    techStack: [
-      "React",
-      "TypeScript",
-      "Vite",
-      "Tailwind CSS",
-      "Node.js",
-      "Express",
-      "Supabase",
-      "PostgreSQL",
-      "pgvector",
-      "Gemini",
-      "Groq",
-      "TanStack Query",
-      "RBAC",
-      "vercel",
-      "Railway api"
-    ],
-    githubUrl: "https://github.com/nirunj27/Doc-ai",
-    liveUrl:"https://doc-ai-gamma-silk.vercel.app/",
-    image: "/projects/Doc-screenshot.png",
-    accent: "from-violet-500 to-purple-600",
+  // {
+  //   slug: "docmind-ai",
+  //   title: "DocuMind AI",
+  //   subtitle: "Document Intelligence Platform",
+  //   description:
+  //     "Multi-tenant platform that turns unstructured files into searchable, AI-enriched insights with RBAC, semantic search, and 13 specialized AI workflows.",
+  //   longDescription:
+  //     "DocuMind AI is a document intelligence SaaS built for legal, finance, HR, and operations teams. Users upload PDFs, DOCX, images, and CSVs; the system extracts text, generates summaries, and runs structured AI workflows—invoices, contracts, resumes, compliance checks, and more.\n\nInstead of treating files as static uploads, the platform enriches documents through a dedicated AI Studio and exposes structured fields, detections, and recommended actions. A real multi-tenant model gives platform SuperAdmins oversight of all projects, while project admins manage workspaces and invite team members with roles (Admin, Manager, Member, Viewer). Documents can be private or workspace-shared, with permissions enforced end-to-end.\n\nThe product spans the full stack: landing page, auth, dashboard, upload pipeline with OCR, 13 AI workflows, semantic search via pgvector embeddings, admin console with audit logs and feature flags, and a SuperAdmin dashboard for platform-wide metrics—all backed by Express API, Supabase Auth/PostgreSQL/Storage, and secure server-side Gemini/Groq integration.",
+  //   highlights: [
+  //     "End-to-end product: landing page, auth, dashboard, upload pipeline, AI workflows, semantic search, and admin console.",
+  //     "Multi-tenant architecture — SuperAdmin → Project → Workspaces → Team members with full RBAC.",
+  //     "13 AI Studio workflows: invoice extraction, contract analysis, resume parsing, compliance checks, and more.",
+  //     "Semantic search with pgvector embeddings, filters, and saved searches.",
+  //     "Document lifecycle with OCR (Tesseract), PDF/DOCX/CSV parsing, preview, folders, and JSON/CSV/PDF export.",
+  //     "Admin governance: team invites, permission matrix, feature flags, and audit logs.",
+  //     "Secure AI integration — Gemini/Groq keys server-side with provider switching from the UI.",
+  //   ],
+  //   techStack: [
+  //     "React",
+  //     "TypeScript",
+  //     "Vite",
+  //     "Tailwind CSS",
+  //     "Node.js",
+  //     "Express",
+  //     "Supabase",
+  //     "PostgreSQL",
+  //     "pgvector",
+  //     "Gemini",
+  //     "Groq",
+  //     "TanStack Query",
+  //     "RBAC",
+  //     "vercel",
+  //     "Railway api"
+  //   ],
+  //   githubUrl: "https://github.com/nirunj27/Doc-ai",
+  //   liveUrl:"https://doc-ai-gamma-silk.vercel.app/",
+  //   image: "/projects/Doc-screenshot.png",
+  //   accent: "from-violet-500 to-purple-600",
     
-  },
+  // },
   {
     slug: "snippetshelf",
     title: "SnippetShelf",
@@ -82,7 +82,7 @@ export const personalProjects: PersonalProject[] = [
       "Lucide React",
       "Json"
     ],
-    githubUrl: "https://github.com/nirunj27/snippetshelf",
+   // githubUrl: "https://github.com/nirunj27/snippetshelf",
     liveUrl: "https://snippetshelf.netlify.app/",
     image: "/projects/snippetshelf.png",
     accent: "from-cyan-500 to-blue-600",
@@ -117,7 +117,7 @@ export const personalProjects: PersonalProject[] = [
       "Groq",
       "Vercel",
     ],
-    githubUrl: "https://github.com/nirunj27/PopMarket",
+    //githubUrl: "https://github.com/nirunj27/PopMarket",
     liveUrl: "https://popmarket-os.vercel.app/",
     image: "/projects/popmarket.png",
     accent: "from-orange-500 to-amber-600",
@@ -145,7 +145,7 @@ export const personalProjects: PersonalProject[] = [
       "Turborepo",
       "Vite",
     ],
-    githubUrl: "https://github.com/nirunj27/Ts-project",
+   // githubUrl: "https://github.com/nirunj27/Ts-project",
     liveUrl: "https://ts-project-portfolio.vercel.app/",
     image: "/projects/ts-showcase-landing.png",
     images: [

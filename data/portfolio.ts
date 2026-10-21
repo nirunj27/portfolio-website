@@ -3,11 +3,11 @@ export const siteConfig = {
   title: "Software Engineer",
   degree: "Bachelor of Engineering(CS)",
   tagline:
-    "Building scalable, production-grade frontend applications with React and Next.js, complemented by practical experience in backend development with Node.js, Express.js, and AWS.",
+    "Building scalable, production-grade frontend applications with React and Next.js, working knowledge of backend development with Node.js, Express.js, and AWS.",
   experienceYears: "3.6 years",
   location: "Sangamner, India",
   email: "niranjan.jathar@gmail.com",
-  github: "https://github.com/nirunj27",
+ // github: "https://github.com/nirunj27",
   linkedin: "https://www.linkedin.com/in/niranjan-jathar-5a53b1229/",
   resumeUrl: "/Niranjan-Jathar-CV.pdf",
 };
@@ -16,7 +16,7 @@ export const aboutText = `Software Engineer with 3.6+ years of experience specia
 
 Experienced in designing reusable component architectures, implementing efficient state management, integrating RESTful APIs, and optimizing application performance to deliver maintainable and scalable frontend solutions. Passionate about writing clean, well-structured code while following modern engineering practices and frontend architecture principles.
 
-In addition to frontend development, I have hands-on experience with Node.js, Express.js, and MySQL, enabling me to build RESTful APIs, understand backend workflows, and collaborate effectively across the full application stack.
+In addition to frontend development, I have working knowledge of Node.js, Express.js, MongoDB and MySQL, with an understanding of RESTful APIs, backend workflows, and full-stack application architecture.
 
 Familiar with cloud technologies, including AWS (EC2, S3), containerization with Docker, and modern deployment workflows, with a solid understanding of building secure, cloud-ready applications.
 
@@ -27,10 +27,10 @@ export const skillGroups = [
     category: "Frontend",
     skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript"],
   },
-  {
-    category: "Animation",
-    skills: ["Three.js", "React Three Fiber", "GSAP"],
-  },
+  // {
+  //   category: "Animation",
+  //   skills: ["Three.js", "React Three Fiber", "GSAP"],
+  // },
   {
     category: "Frameworks & Libraries",
     skills: ["React.js", "Next.js"],
@@ -39,16 +39,16 @@ export const skillGroups = [
     category: "State Management",
     skills: ["Redux", "Zustand", "React Context API", "React Query"],
   },
-  {
-    category: "Design Systems",
-    skills: [
-      "Component-Driven Development",
-      "Reusable Component Libraries",
-      "Design Tokens",
-      "Responsive Design",
-      "Accessibility (WCAG)",
-    ],
-  },
+  // {
+  //   category: "Design Systems",
+  //   skills: [
+  //     "Component-Driven Development",
+  //     "Reusable Component Libraries",
+  //     "Design Tokens",
+  //     "Responsive Design",
+  //     "Accessibility (WCAG)",
+  //   ],
+  // },
   {
     category: "Frontend System Design",
     skills: [
@@ -57,7 +57,6 @@ export const skillGroups = [
       "State Management Architecture",
       "API Integration Patterns",
       "Performance Optimization",
-      "Caching Strategies",
     ],
   },
   {
@@ -68,7 +67,6 @@ export const skillGroups = [
       "Tailwind CSS",
       "Bootstrap",
       "shadcn/ui",
-      "React Bootstrap",
       "Semantic UI React",
     ],
   },
@@ -91,7 +89,6 @@ export const skillGroups = [
   {
     category: "Testing",
     skills: [
-      "Jest",
       "React Testing Library",
       "Unit Testing",
       "End-to-End Testing",
@@ -112,7 +109,7 @@ export const skillGroups = [
   },
   {
     category: "Databases",
-    skills: ["MongoDB", "MySQL", "PostgreSQL"],
+    skills: ["MongoDB", "MySQL"],
   },
   {
     category: "Cloud & Deployment",
@@ -127,7 +124,7 @@ export const skillGroups = [
   },
   {
     category: "Monitoring & Debugging",
-    skills: ["Chrome DevTools", "React Developer Tools", "LogRocket"],
+    skills: ["Chrome DevTools", "React Developer Tools",],
   },
   {
     category: "Build Tools",
@@ -173,26 +170,26 @@ export const skillGroups = [
     skills: [
       "Strong written and verbal communication skills",
       "Technical documentation",
-      "Stakeholder collaboration",
+      "Collaboration with cross-functional teams"
     ],
   },
 ];
 
 export const experiences = [
-  {
-    title: "Software Engineer (Freelancer)",
-    company: "Enterprise Client",
-    location: "India",
-    id: "freelancer",
-    period: "November 2025 – March 2026",
-    highlights: [
-      "Designed and developed scalable React.js modules for an enterprise Audit Query & Resolve Management System (AQRMS), digitizing audit planning, query management, compliance tracking, and reporting workflows.",
-      "Architected reusable component libraries and implemented secure role-based navigation, advanced data tables, document upload workflows, and interactive dashboards for multiple stakeholder roles.",
-      "Integrated 30+ REST APIs using React Query and Axios, while contributing to backend API development with Node.js and Express.js to support audit lifecycle and document management features.",
-      "Enhanced application performance using lazy loading, code splitting, memoization, and optimized rendering strategies, ensuring a responsive user experience for enterprise-scale applications.",
-      "Worked closely with cross-functional teams throughout the software development lifecycle, translating business requirements into production-ready features while following Agile methodologies and coding best practices.",
-    ],
-  },
+  // {
+  //   title: "Software Engineer (Freelancer)",
+  //   company: "Enterprise Client",
+  //   location: "India",
+  //   id: "freelancer",
+  //   period: "November 2025 – March 2026",
+  //   highlights: [
+  //     "Designed and developed scalable React.js modules for an enterprise Audit Query & Resolve Management System (AQRMS), digitizing audit planning, query management, compliance tracking, and reporting workflows.",
+  //     "Architected reusable component libraries and implemented secure role-based navigation, advanced data tables, document upload workflows, and interactive dashboards for multiple stakeholder roles.",
+  //     "Integrated 30+ REST APIs using React Query and Axios, while contributing to backend API development with Node.js and Express.js to support audit lifecycle and document management features.",
+  //     "Enhanced application performance using lazy loading, code splitting, memoization, and optimized rendering strategies, ensuring a responsive user experience for enterprise-scale applications.",
+  //     "Worked closely with cross-functional teams throughout the software development lifecycle, translating business requirements into production-ready features while following Agile methodologies and coding best practices.",
+  //   ],
+  // },
   {
     title: "Software Engineer",
     company: "Winjit Technologies",
@@ -232,6 +229,7 @@ export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
+ // { label: "System Design", href: "#system-design" },
   { label: "Experience", href: "#experience" },
   { label: "Achievements", href: "#achievements" },
   { label: "Contact", href: "#contact" },
@@ -239,6 +237,6 @@ export const navLinks = [
 
 export const heroStats = [
   { value: "3.6", label: "Years Experience" },
-  { value: "8", label: "Web Apps" },
+  { value: "6", label: "Web Apps" },
   { value: "1", label: "AWS Certification" },
 ];

@@ -183,7 +183,7 @@ export default function Hero() {
                   </span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <a
+                  {/* <a
                     href={siteConfig.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -191,7 +191,7 @@ export default function Hero() {
                     aria-label="GitHub"
                   >
                     <Github size={14} />
-                  </a>
+                  </a> */}
                   <a
                     href={siteConfig.linkedin}
                     target="_blank"

@@ -110,7 +110,7 @@ export default function PersonalProjectDetail({ project }: { project: PersonalPr
         </p>
 
         <div className="detail-animate mt-8 flex flex-wrap gap-4">
-          {project.githubUrl && (
+          {/* {project.githubUrl && (
             <a
               href={project.githubUrl}
               target="_blank"
@@ -120,7 +120,7 @@ export default function PersonalProjectDetail({ project }: { project: PersonalPr
               <Github size={16} />
               View on GitHub
             </a>
-          )}
+          )} */}
           {project.liveUrl && (
             <a
               href={project.liveUrl}

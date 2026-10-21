@@ -44,7 +44,7 @@ function PersonalProjectCard({ project }: { project: (typeof personalProjects)[n
             </h4>
           </Link>
           <div className="flex shrink-0 items-center gap-2">
-            {project.githubUrl && (
+            {/* {project.githubUrl && (
               <a
                 href={project.githubUrl}
                 target="_blank"
@@ -55,7 +55,7 @@ function PersonalProjectCard({ project }: { project: (typeof personalProjects)[n
               >
                 <Github size={16} />
               </a>
-            )}
+            )} */}
             {project.liveUrl && (
               <a
                 href={project.liveUrl}

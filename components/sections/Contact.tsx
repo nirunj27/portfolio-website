@@ -31,7 +31,7 @@ export default function Contact() {
           </a>
 
           <div className="flex items-center justify-center gap-6">
-            <a
+            {/* <a
               href={siteConfig.github}
               target="_blank"
               rel="noopener noreferrer"
@@ -40,7 +40,7 @@ export default function Contact() {
             >
               <Github size={22} />
               <span className="hidden text-sm sm:inline">GitHub</span>
-            </a>
+            </a> */}
             <a
               href={siteConfig.linkedin}
               target="_blank"
