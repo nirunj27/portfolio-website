@@ -3,11 +3,11 @@ export const siteConfig = {
   title: "Software Engineer",
   degree: "Bachelor of Engineering(CS)",
   tagline:
-    "Building scalable, production-grade frontend applications with React and Next.js, working knowledge of backend development with Node.js, Express.js, and AWS.",
+    "Building scalable, production-grade frontend applications with React and Next.js, working knowledge of backend development with Node.js, Express.js, Python, FastAPI and AWS.",
   experienceYears: "3.6 years",
   location: "Sangamner, India",
   email: "niranjan.jathar@gmail.com",
- // github: "https://github.com/nirunj27",
+  // github: "https://github.com/nirunj27",
   linkedin: "https://www.linkedin.com/in/niranjan-jathar-5a53b1229/",
   resumeUrl: "/Niranjan-Jathar-CV.pdf",
 };
@@ -16,7 +16,7 @@ export const aboutText = `Software Engineer with 3.6+ years of experience specia
 
 Experienced in designing reusable component architectures, implementing efficient state management, integrating RESTful APIs, and optimizing application performance to deliver maintainable and scalable frontend solutions. Passionate about writing clean, well-structured code while following modern engineering practices and frontend architecture principles.
 
-In addition to frontend development, I have working knowledge of Node.js, Express.js, MongoDB and MySQL, with an understanding of RESTful APIs, backend workflows, and full-stack application architecture.
+In addition to frontend development, I have working knowledge of Node.js, Express.js, Python, FastAPI and MongoDB and MySQL, with an understanding of RESTful APIs, backend workflows, and full-stack application architecture.
 
 Familiar with cloud technologies, including AWS (EC2, S3), containerization with Docker, and modern deployment workflows, with a solid understanding of building secure, cloud-ready applications.
 
@@ -27,10 +27,29 @@ export const skillGroups = [
     category: "Frontend",
     skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript"],
   },
-  // {
-  //   category: "Animation",
-  //   skills: ["Three.js", "React Three Fiber", "GSAP"],
-  // },
+  {
+    category: "UI Animation",
+    skills: [
+      "Three.js",
+      "GSAP",
+      "Framer Motion",
+      "CSS Animations",
+      "CSS Transitions",
+    ],
+  },
+  {
+    category: "Gamification",
+    skills: [
+      "Points & Rewards",
+      "XP & Leveling Systems",
+      "Badges & Achievements",
+      "Leaderboards",
+      "Challenges & Missions",
+      "Progress Tracking",
+      "Streak Systems",
+      "Reward Animations",
+    ],
+  },
   {
     category: "Frameworks & Libraries",
     skills: ["React.js", "Next.js"],
@@ -67,7 +86,6 @@ export const skillGroups = [
       "Tailwind CSS",
       "Bootstrap",
       "shadcn/ui",
-      "Semantic UI React",
     ],
   },
   {
@@ -105,11 +123,11 @@ export const skillGroups = [
   },
   {
     category: "Backend",
-    skills: ["Node.js", "Express.js", "MVC Architecture"],
+    skills: ["Node.js", "Express.js", "Python", "FastAPI", "MVC Architecture"],
   },
   {
     category: "Databases",
-    skills: ["MongoDB", "MySQL"],
+    skills: ["MongoDB", "MySQL", "PostgreSQL", "Supabase"],
   },
   {
     category: "Cloud & Deployment",
@@ -119,12 +137,12 @@ export const skillGroups = [
       "CI/CD Pipelines",
       "Vercel",
       "Netlify",
-      "Railway",
+     // "Railway",
     ],
   },
   {
     category: "Monitoring & Debugging",
-    skills: ["Chrome DevTools", "React Developer Tools",],
+    skills: ["Chrome DevTools", "React Developer Tools"],
   },
   {
     category: "Build Tools",
@@ -136,13 +154,7 @@ export const skillGroups = [
   },
   {
     category: "Dev Tools",
-    skills: [
-      "VS Code",
-      "Postman",
-      "Jira",
-      "DBeaver",
-      "Figma",
-    ],
+    skills: ["VS Code", "Postman", "Jira", "DBeaver", "Figma"],
   },
   {
     category: "Methodologies",
@@ -170,7 +182,7 @@ export const skillGroups = [
     skills: [
       "Strong written and verbal communication skills",
       "Technical documentation",
-      "Collaboration with cross-functional teams"
+      "Collaboration with cross-functional teams",
     ],
   },
 ];
@@ -229,7 +241,7 @@ export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
- // { label: "System Design", href: "#system-design" },
+  // { label: "System Design", href: "#system-design" },
   { label: "Experience", href: "#experience" },
   { label: "Achievements", href: "#achievements" },
   { label: "Contact", href: "#contact" },
