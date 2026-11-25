@@ -3,7 +3,7 @@ export const siteConfig = {
   title: "Software Engineer",
   degree: "Bachelor of Engineering(CS)",
   tagline:
-    "Building scalable, production-grade frontend applications with React and Next.js, working knowledge of backend development with Node.js, Express.js, Python, FastAPI and AWS.",
+    "Building scalable, production-grade frontend applications with React and Next.js, working knowledge of backend development with Node.js, Express.js and AWS.",
   experienceYears: "3.6 years",
   location: "Sangamner, India",
   email: "niranjan.jathar@gmail.com",
@@ -16,7 +16,7 @@ export const aboutText = `Software Engineer with 3.6+ years of experience specia
 
 Experienced in designing reusable component architectures, implementing efficient state management, integrating RESTful APIs, and optimizing application performance to deliver maintainable and scalable frontend solutions. Passionate about writing clean, well-structured code while following modern engineering practices and frontend architecture principles.
 
-In addition to frontend development, I have working knowledge of Node.js, Express.js, Python, FastAPI and MongoDB and MySQL, with an understanding of RESTful APIs, backend workflows, and full-stack application architecture.
+In addition to frontend development, I have working knowledge of Node.js, Express.js and MongoDB and MySQL, with an understanding of RESTful APIs, backend workflows, and full-stack application architecture.
 
 Familiar with cloud technologies, including AWS (EC2, S3), containerization with Docker, and modern deployment workflows, with a solid understanding of building secure, cloud-ready applications.
 
@@ -37,19 +37,19 @@ export const skillGroups = [
       "CSS Transitions",
     ],
   },
-  {
-    category: "Gamification",
-    skills: [
-      "Points & Rewards",
-      "XP & Leveling Systems",
-      "Badges & Achievements",
-      "Leaderboards",
-      "Challenges & Missions",
-      "Progress Tracking",
-      "Streak Systems",
-      "Reward Animations",
-    ],
-  },
+  // {
+  //   category: "Gamification",
+  //   skills: [
+  //     "Points & Rewards",
+  //     "XP & Leveling Systems",
+  //     "Badges & Achievements",
+  //     "Leaderboards",
+  //     "Challenges & Missions",
+  //     "Progress Tracking",
+  //     "Streak Systems",
+  //     "Reward Animations",
+  //   ],
+  // },
   {
     category: "Frameworks & Libraries",
     skills: ["React.js", "Next.js"],
@@ -123,7 +123,7 @@ export const skillGroups = [
   },
   {
     category: "Backend",
-    skills: ["Node.js", "Express.js", "Python", "FastAPI", "MVC Architecture"],
+    skills: ["Node.js", "Express.js","MVC Architecture"],
   },
   {
     category: "Databases",
